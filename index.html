@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        
+        #first ul {
+            display:flex;
+            
+            
+            flex-direction: row;
+            column-gap: 100px; 
+            background-color: green;
+            padding:50px;
+            font-size: 20px;
+            flex-wrap: wrap;
+            font-weight: bold;
+            text-decoration: none;
+            
+            
+        }
+        
+        header{
+            
+            border: 2px solid grey;
+            padding:20px;
+            background-color: gray;
+            color: white;
+            margin-top:-20px;
+            text-align: center;
+            font-size:40px ;
+        }
+        #div2
+        {
+            background-color: black;
+            margin-top: -30px;
+            color: white;
+        }
+        #div3{
+        
+            background-color: rgb(207, 203, 203);
+            margin-top: -20px;
+             
+            
+        }
+        #div4{
+            text-decoration:none;
+            background-color: beige;
+            margin-top: -30px;
+        }
+        h1{
+            color: green;
+            text-align: center;
+        }
+        #div5{
+            background-color:rgb(249, 225, 193);
+            margin-top: -30px;
+        }
+        #div6{
+            margin-left: 260px;
+            margin-right: 260px;
+            
+            
+        }
+        #fo{
+            background-color: black;
+            text-align: center;
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+        label{
+            color: white;
+            font-weight: bold;
+            
+            
+        }
+        footer{
+            font-size: 25px;
+            font-weight:bold ;
+            background-color: green;
+            margin-top: -20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    
+       
+        <div id="first" >
+            <ul type="none">
+                <li>Welcome To My World</li>
+                <li><a href="#div2">About</a></li>
+                <li><a href="#div3">Skills</a></li>
+                <li><a href="#div4">Projects</a></li>
+                <li><a href="#div5">Achievements</a></li>
+                <li><a href="#div6">Contacts</a></li>
+            </ul>
+        </div>
+        <header >
+            
+                Hi Sir/Madam
+           
+
+            
+        </header>
+        <hr>
+        <div id="div2">
+            
+                <h1>About Me </h1>
+            
+            <table >
+                <tr>
+                    <td width="40%"><img src="Shobha.jpeg" alt="" width="300px" height="300px"></td>
+                    <td width="60%"><p style="font-size: 25px;"> Hello! My name is Shobharani L, and I am a dedicated and passionate computer science graduate studies at PES Institute of Technology and Management, Shivamogga. I am eager to start my career in the tech industry, bringing My knowledge, creativity, and problem-solving skills to new and exciting challenges.
+                    
+                    </p></td>
+                </tr>
+            </table>
+        </div>
+        <div id="div3" >
+           
+                <h1>Skills</h1>
+                    
+            
+                <h3 style="margin-left: 40px;">Skills :</h3>
+                <ul style="margin-left: 40px;">
+                    <li>Programming Languages :</li>
+                    <ul type="circle">
+                        <li>Java</li>
+                    </ul>
+                    <br>
+                    <li>Web Develeopment :</li>
+                    <ul type="circle">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                    <br>
+                    <li>Database Management :</li>
+                    <ul type="circle">
+                        <li>SQL</li>
+                    </ul>
+                    <br>
+                    <li>Object-Oriented Programming :</li>
+                </ul><br><br>
+            
+
+        </div>
+        
+        <div id="div4">
+           
+                <h1>Projects</h1>
+           
+            
+                <ul style="margin-left: 20px;">
+                    <li><a href="#">NGO management System</a></li><br>
+                    <li><a href="#">Parkinson's Disease Detection System</a></li>
+                </ul><br><br>
+            
+
+        </div>
+        
+        <div id="div5">
+            <h1>Achievements</h1>
+            <dl style="margin-left: 20px;">
+                <dt><ul><li>Internship in Machine learning domain.</li></ul></dt>
+                <dd>One month internship at Vivarttana Technologies pvt.ltd located in Koramangala. Gained some knowledge on Machine learning concepts.Conducted events and workshops on different technologies.</dd><br>
+                <dt><ul><li>Advance data structures and algorithms using Java.</li></ul></dt>
+                <dd>five days workshop certification on Advance data structures and algorithms using java</dd>
+            </dl><br><br><br>
+        </div>
+        <div id="div6">
+            <h1>Contacts</h1>
+            <form action="ac.html" id="fo">
+                
+                <label for="name">Name</label>
+                <input type="text" id="name" required pattern="[a-zA-Z{3,}]"><br><br><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" required placeholder="example@outlook.com" pattern="[a-z0-9_.]+@[a-z]+.[a-z]{2,}"><br><br><br>
+                <label for="number">Number</label>
+                <input type="number" id="number" required pattern="[6-9][0-9]{9}"><br><br><br>
+                <label for="msg">Message</label>
+                <input type="text" id="msg" required><br><br><br>
+                <input type="submit">
+                
+            </form>
+
+        </div><br><br><hr>
+        <footer>
+            copyright
+        </footer>
+
+</body>
+</html>
